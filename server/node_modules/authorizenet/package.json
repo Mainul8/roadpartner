@@ -1,0 +1,36 @@
+{
+  "name": "authorizenet",
+  "version": "1.0.8",
+  "description": "nodejs sdk for Authorize.Net",
+  "main": "lib/authorizenet.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "request": "^2.72.0",
+    "winston": "^2.2.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^6.6.0",
+    "jsonix": "^2.3.2",
+    "mocha": "^8.2.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AuthorizeNet/sdk-node.git"
+  },
+  "keywords": [
+    "nodejs",
+    "Authorize.Net"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AuthorizeNet/sdk-node/issues"
+  },
+  "homepage": "https://github.com/AuthorizeNet/sdk-node#readme"
+}
